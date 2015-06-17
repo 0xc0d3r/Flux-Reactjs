@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>
+      Hello, World
+    </title>
+    <script src="js/react.js"></script>
+    <script src="js/JSXTransformer.js"></script>
+  </head>
+  <body>
+    <div id="form"></div>
+    <script type="text/jsx">
+      React.render(
+        <div>
+          <input type="text" placeholder="Username" name="uname" id="uname" />
+          <br/><br/>
+          <input type="password" placeholder="Password" name="passwd" id="passwd" />
+          <br/><br/>
+          <input type="submit" name="Login" />
+        </div>,
+        document.getElementById('form')
+      );
+    </script>
+  </body>
+</html>
