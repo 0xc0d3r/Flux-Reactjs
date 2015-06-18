@@ -71,3 +71,7 @@ var CommentForm = React.createClass({
 });
 
 React.render(<CommentBox data={comments} />,document.getElementById('comment-box'));
+
+/*
+
+*/
